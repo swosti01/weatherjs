@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather App | Kritesh Thapa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/5045e83b56.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="mainbody borderx rel">
+      <div class="body1 borderx">
+        <h1 class="title borderx">Welcome to the <br/> <span>Weather</span> App</h1>
+        <div class="searchbbox borderx flex jcc">
+          <input type = "text" class="inpbox borderx" placeholder="Enter you city..."/>
+          <div class="borderx sbtn flex aic jcc">Search</div>
+        </div>
+        <div class="notibox flex aic borderx">
+          <div class="noti1 notis borderx">Input box cannot be empty!</div>
+          <div class="noti2 notis borderx none">Enter a valid city!</div>
+        </div>
+        <!-- <i class="fas fa-cloud-sun wicon"></i> -->
+        <!-- 61&deg;F | 61&deg;F -->
+        <div class="displaybody borderx flex fdc">
+          <div class="side1 borderx flex jcsb">
+            <div class="side1r borderx">
+              <div class="s11r flex">
+                <div class="wiconbox borderx">
+                  <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="" class="wimg borderx">
+                  <!-- <i class="fas fa-cloud-sun wicon"></i> -->
+                </div>
+                <div class="s11rtxt1 flex aic borderx">
+                  61&deg;F | 61&deg;F
+                </div>
+              </div>
+              <div class="s12r borderx">
+                <div class="s12rtxt1">
+                  min: 61&deg;F<br/>
+                  max: 61&deg;F
+                </div>
+              </div>
+            </div>
+            <div class="side1l flex fdc jcsb borderx">
+              <div class="s1ltxt1 borderx">Paris, FR</div>
+              <div class="s1ltxt2 borderx">Thrusday 3:42PM<br/> Light Rain</div>
+            </div>
+          </div>
+          <div class="side2 borderx flex jcsb">
+            <div class="s2box1 s2box0 flex borderx">
+              <div class="wicnbox borderxs flex jcc">
+                <i class="fas fa-wind wwicon borderx"></i>
+              </div>
+              <div class="s2btxt1 s2btxt0 borderx flex aic">2.1 mph</div>
+            </div>
+            <div class="s2box2 s2box0 flex borderx">
+              <div class="wicnbox borderx flex jcc">
+                <i class="fas fa-tint wwicon borderx"></i>
+              </div>
+              <div class="s2btxt2 s2btxt0 borderx flex aic">77%</div>
+            </div>
+            <div class="s2box3 s2box0 flex borderx">
+              <div class="wicnbox borderx flex jcc">
+                <i class="fas fa-tachometer-alt wwicon borderx"></i>
+              </div>
+              <div class="s2btxt3 s2btxt0 borderx flex aic">2.1 mph</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
